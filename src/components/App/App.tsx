@@ -8,7 +8,8 @@ import MovieGrid from '../MovieGrid/MovieGrid';
 import MovieModal from '../MovieModal/MovieModal';
 import SearchBar from '../SearchBar/SearchBar';
 import { fetchMovies } from '../../services/movieService';
-import type { Movie, MovieSearchResponse } from '../../types/movie';
+import type { MovieSearchResponse } from '../../services/movieService';
+import type { Movie } from '../../types/movie';
 import styles from './App.module.css';
 
 const App = () => {
